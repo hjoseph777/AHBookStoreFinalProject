@@ -1,8 +1,10 @@
 {
+  "version": 2,
   "builds": [
     {
-      "src": "vercel_app.py",
-      "use": "@vercel/python"
+      "src": "AHBookStore/wsgi.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb" }
     }
   ],
   "routes": [
@@ -12,10 +14,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "vercel_app.py"
+      "dest": "AHBookStore/wsgi.py"
     }
-  ],
-  "env": {
-    "DJANGO_SETTINGS_MODULE": "AHBookStore.settings"
-  }
+  ]
 }
