@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -88,9 +89,15 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'  # For production static file collection
 STATICFILES_DIRS = [BASE_DIR / 'books' / 'static']  # Development static files
+
+# Disable migrations on Vercel
+if 'VERCEL' in os.environ:
+    DATABASES['default']['OPTIONS'] = {
+        'timeout': 20,
+    }
 
 LOGIN_URL = 'login'
 

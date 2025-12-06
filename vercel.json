@@ -1,14 +1,21 @@
 {
   "builds": [
     {
-      "src": "AHBookStore/wsgi.py",
+      "src": "vercel_app.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
       "src": "/(.*)",
-      "dest": "AHBookStore/wsgi.py"
+      "dest": "vercel_app.py"
     }
-  ]
+  ],
+  "env": {
+    "DJANGO_SETTINGS_MODULE": "AHBookStore.settings"
+  }
 }
