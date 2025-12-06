@@ -3,11 +3,8 @@
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/Django-5.2.8-green.svg)](https://www.djangoproject.com/)
 [![REST Framework](https://img.shields.io/badge/DRF-3.16.1-red.svg)](https://www.django-rest-framework.org/)
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-success?style=for-the-badge)](https://ahbookstore.onrender.com/)
-
-## 🌟 **LIVE DEMO *Complete Django project with bookstore functionality ready to run***
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-success?style=for-the-badge)](https://ahbookstore.onrender.com/) 👈**
 ### **👉 Experience the full application functionality online app now: [https://ahbookstore.onrender.com/](https://ahbookstore.onrender.com/) 👈**
-
 *✨ Fully deployed Django bookstore with user authentication, CRUD operations, and REST API*
 - super user = admin
 - password = admin123 to see the admin option you need to register and create an account
