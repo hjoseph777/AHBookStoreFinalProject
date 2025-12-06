@@ -1,0 +1,1 @@
+application = "AHBookStore.wsgi:application"

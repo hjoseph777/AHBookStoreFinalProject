@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "AHBookStore/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "AHBookStore/wsgi.py"
+    }
+  ]
+}

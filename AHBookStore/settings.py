@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-djt)@v)zigtryvvw$y%a=^l(+wfu6=q30t)5h3ijxa4yo*ib0s
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']  # Allow all hosts for Vercel deployment
 
 
 # Application definition
@@ -89,6 +89,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'  # For production static file collection
+STATICFILES_DIRS = [BASE_DIR / 'books' / 'static']  # Development static files
+
 LOGIN_URL = 'login'
 
 # Default primary key field type
