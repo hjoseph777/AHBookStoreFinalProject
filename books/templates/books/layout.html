@@ -1,0 +1,33 @@
+{% load static %} <!DOCTYPE html>
+<html>
+<head>
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="{% static '/style.css' %}">
+</head>
+<body>
+    <nav>
+        <a href="{% url 'index' %}">Home</a>
+        {% if user.is_authenticated %}
+            <a href="{% url 'add_book' %}">Add Book</a>
+            <a href="/api/books/" target="_blank">API - Books</a>
+            {% if user.is_superuser %}
+                <a href="/admin/" target="_blank">Admin</a>
+            {% endif %}
+            <a href="{% url 'logout' %}">Logout ({{ user.username }})</a>
+        {% else %}
+            <a href="{% url 'login' %}">Login</a>
+            <a href="{% url 'register' %}">Register</a>
+            <a href="/api/books/" target="_blank">API - Books</a>
+        {% endif %}
+    </nav>
+    
+    <div class="container">
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
