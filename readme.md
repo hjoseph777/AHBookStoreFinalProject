@@ -37,7 +37,7 @@ AHBookStore is a comprehensive Django web application that demonstrates full-sta
 
 ## Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ahbookstore.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ahbookstore.onrender.com/)
 
 *Experience the full application functionality online*
 
