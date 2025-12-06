@@ -19,7 +19,7 @@ AHBookStore is a comprehensive Django web application that demonstrates full-sta
 
 **Get the complete project instantly:**
 
-[![Download AHBookStoreFinalProject](https://img.shields.io/badge/Download-Project.zip-blue?style=for-the-badge&logo=download)](https://github.com/hjoseph777/AHBookStore/releases/download/v1/AHBookStoreFinalProject.zip)
+[![Download AHBookStoreFinalProject](https://img.shields.io/badge/Download-Project.zip-blue?style=for-the-badge&logo=download)](https://github.com/hjoseph777/AHBookStoreFinalProject/archive/refs/heads/main.zip)
 
 *Complete Django project with bookstore functionality ready to run*
 
