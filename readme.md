@@ -1,4 +1,16 @@
-# AHBookStore – Django Bookstore Application
+# 📚 AHBookStore – Django Bookstore Application
+
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/Django-5.2.8-green.svg)](https://www.djangoproject.com/)
+[![REST Framework](https://img.shields.io/badge/DRF-3.16.1-red.svg)](https://www.django-rest-framework.org/)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-success?style=for-the-badge)](https://ahbookstore.onrender.com/)
+
+## 🌟 **LIVE DEMO**
+### **👉 Experience the app now: [https://ahbookstore.onrender.com/](https://ahbookstore.onrender.com/) 👈**
+
+*✨ Fully deployed Django bookstore with user authentication, CRUD operations, and REST API*
+
+---
 
 ## Project Metadata
 - Author: Harry Joseph ANd Abhishek Masur Jayatheertha
