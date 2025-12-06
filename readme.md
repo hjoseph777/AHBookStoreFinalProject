@@ -5,11 +5,12 @@
 [![REST Framework](https://img.shields.io/badge/DRF-3.16.1-red.svg)](https://www.django-rest-framework.org/)
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-success?style=for-the-badge)](https://ahbookstore.onrender.com/)
 
-## 🌟 **LIVE DEMO**
-### **👉 Experience the app now: [https://ahbookstore.onrender.com/](https://ahbookstore.onrender.com/) 👈**
+## 🌟 **LIVE DEMO *Complete Django project with bookstore functionality ready to run***
+### **👉 Experience the full application functionality online app now: [https://ahbookstore.onrender.com/](https://ahbookstore.onrender.com/) 👈**
 
 *✨ Fully deployed Django bookstore with user authentication, CRUD operations, and REST API*
-
+- super user = admin
+- password = admin123 to see the admin option you need to register and create an account
 ---
 
 ## Project Metadata
@@ -34,11 +35,6 @@ AHBookStore is a comprehensive Django web application that demonstrates full-sta
 [![Download AHBookStoreFinalProject](https://img.shields.io/badge/Download-Project.zip-blue?style=for-the-badge&logo=download)](https://github.com/hjoseph777/AHBookStoreFinalProject/archive/refs/heads/main.zip)
 
 *Complete Django project with bookstore functionality ready to run*
-
-## Live Demo
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ahbookstore.onrender.com/)
-
 *Experience the full application functionality online*
 
 ## Important: Where your main code lives
