@@ -22,11 +22,4 @@ else:
 "
 
 # Populate books if database is empty
-python manage.py shell -c "
-from books.models import Book
-if not Book.objects.exists():
-    exec(open('books/management/commands/populate_books.py').read())
-    print('Sample books added')
-else:
-    print('Books already exist')
-"
+python manage.py populate_books || echo "Books population completed or skipped"
