@@ -10,3 +10,7 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'AHBookStore.settings')
 
 application = get_wsgi_application()
+
+# Vercel compatibility
+app = application
+handler = application
