@@ -41,6 +41,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![Homepage Navigation Test](walkthrough_assets/homepage_navigation_1765200289099.webp)
 
 **Observations**:
@@ -69,6 +70,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![User Registration Success](walkthrough_assets/user_registration_success_1765200356559.webp)
 
 **Observations**:
@@ -96,6 +98,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![User Registration Error](walkthrough_assets/user_registration_error_1765200400854.webp)
 
 **Observations**:
@@ -121,6 +124,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![User Login Success](walkthrough_assets/user_login_success_fixed_1765201894248.webp)
 
 **Observations**:
@@ -147,6 +151,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![User Login Error](walkthrough_assets/user_login_error_1765200546896.webp)
 
 **Observations**:
@@ -169,6 +174,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![User Logout](walkthrough_assets/user_logout_1765200887126.webp)
 
 **Observations**:
@@ -201,6 +207,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![Add Book Success](walkthrough_assets/add_book_success_1765200601680.webp)
 
 **Observations**:
@@ -252,6 +259,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![Edit Book Success](walkthrough_assets/edit_book_success_1765200761955.webp)
 
 **Observations**:
@@ -298,6 +306,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![Delete Book](walkthrough_assets/delete_book_fixed_1765202143980.webp)
 
 **Observations**:
@@ -370,6 +379,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![REST API - Get All Books](walkthrough_assets/rest_api_testing_1765201277189.webp)
 
 **Observations**:
@@ -423,6 +433,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![Admin Login Success](walkthrough_assets/admin_login_superuser_1765221726583.webp)
 
 **Observations**:
@@ -444,9 +455,11 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 **Result**: ☑ **PASSED**
 
 **Users Management:**
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![Users Management Demo](walkthrough_assets/admin_panel_demo_1765221813893.webp)
 
 **Groups Management:**
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![Groups Management Demo](walkthrough_assets/admin_groups_demo_1765221909196.webp)
 
 **Observations**:
@@ -467,6 +480,7 @@ This document showcases comprehensive testing of the AHBookStore Django applicat
 
 **Result**: ☑ **PASSED**
 
+🎥 **VIDEO RECORDING** - *Please wait for the full video to load and play*
 ![Admin Books List](walkthrough_assets/admin_books_demo_1765221971701.webp)
 
 **Observations**:
