@@ -1,16 +1,6 @@
 # 📚 AHBookStore – Django Bookstore Application
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
-[![Django](https://img.shields.io/badge/Django-5.2.8-green.svg)](https://www.djangoproject.com/)
-[![REST Framework](https://img.shields.io/badge/DRF-3.16.1-red.svg)](https://www.django-rest-framework.org/)
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-success?style=for-the-badge)](https://ahbookstore.onrender.com/) 👈**
-### **👉 Experience the full application functionality online app now: [https://ahbookstore.onrender.com/](https://ahbookstore.onrender.com/) 👈**
-*✨ Fully deployed Django bookstore with user authentication, CRUD operations, and REST API*
-- super user = admin
-- password = admin123 to see the admin option you need to register and create an account
----
-
-## Project Metadata
+## Project Details
 - Author: Harry Joseph ANd Abhishek Masur Jayatheertha
 - Class: CPAN 214 Group Project Final
 - Created: 2025-12-06
@@ -24,6 +14,27 @@
 AHBookStore is a comprehensive Django web application that demonstrates full-stack web development with user authentication, CRUD operations, and REST API functionality. The project showcases modern Django practices including class-based views, user ownership validation, and browsable API interfaces.
 
 **Important**: CRUD operations (Create, Update, Delete) are only available to registered users with accounts. Unregistered visitors can only browse books and view details.
+
+super user = admin
+password = admin123 to see the admin option you need to register and create an account
+
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/Django-5.2.8-green.svg)](https://www.djangoproject.com/)
+[![REST Framework](https://img.shields.io/badge/DRF-3.16.1-red.svg)](https://www.django-rest-framework.org/)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-success?style=for-the-badge)](https://ahbookstore.onrender.com/) 👈**
+### **👉 Experience the full application functionality online app now: [https://ahbookstore.onrender.com/](https://ahbookstore.onrender.com/) 👈**
+*✨ Fully deployed Django bookstore with user authentication, CRUD operations, and REST API*
+
+---
+
+## 📹 Testing Walkthrough
+[VIEW COMPLETE TESTING WALKTHROUGH →](walkthrough.md)
+
+We've created a comprehensive automated testing walkthrough that demonstrates all features of the AHBookStore application with video recordings and screenshots.
+
+**All 20 test cases passed successfully!** View the [walkthrough.md](walkthrough.md) for detailed test results with embedded video demonstrations.
+---
+
 
 ## Quick Download
 
@@ -146,35 +157,7 @@ AHBookStoreFinalProject/
 ```
 
 
-## Features Implemented
 
-### Core Requirements ✅
-- **Django Project Setup** - Complete bookstore application
-- **Book Model** - Title, author, year, rating, description with user ownership
-- **Browse Functionality** - All users can view books and details (no account required)
-- **CRUD Operations** - Create, Update, Delete (requires user registration and login)
-- **User Authentication** - Registration, login, logout with validation
-- **Authorization** - Ownership-based edit/delete restrictions
-- **Template System** - Base layout with navigation and responsive design
-- **Admin Interface** - Django admin for book management
-
-### REST API ✅
-- **Django REST Framework** - Browsable API interface
-- **API Endpoints**:
-  - `GET /api/books/` - Retrieve all books
-  - `GET /api/books/<id>/` - Retrieve specific book
-- **JSON Serialization** - Clean API responses
-- **Custom DRF Templates** - Branded API interface
-
-### Advanced Features ✅
-- **User Ownership Validation** - Users can only edit their own books
-- **Access Control** - Book creation requires user registration and login
-- **Browse Mode** - Unregistered users can view all books but cannot modify them
-- **Admin Access Control** - Admin panel option only visible to authenticated users in navigation
-- **Error Handling** - Comprehensive form validation and error messages
-- **Sample Data Management** - Custom command to populate test data
-- **Responsive Navigation** - Conditional menu items based on authentication status
-- **Security** - Login required decorators and permission checks
 
 
 ## Technology Stack
@@ -189,17 +172,19 @@ AHBookStoreFinalProject/
 
 All 24 CPAN 214 Final Project requirements have been successfully implemented:
 
-✅ Django project creation and configuration  
-✅ Books app with proper routing  
-✅ Template system with layout inheritance  
-✅ Book model with all required fields  
-✅ CRUD operations for books  
-✅ User authentication system  
-✅ Authorization and access control  
-✅ Django REST Framework integration  
-✅ API endpoints for external access  
-✅ Comprehensive testing scenarios  
+☑ Django project creation and configuration  
+☑ Books app with proper routing  
+☑ Template system with layout inheritance  
+☑ Book model with all required fields  
+☑ CRUD operations for books  
+☑ User authentication system  
+☑ Authorization and access control  
+☑ Django REST Framework integration  
+☑ API endpoints for external access  
+☑ Comprehensive testing scenarios  
 
 ---
+
+
 
 *This project demonstrates modern Django web development with REST API integration and proper authentication/authorization patterns.*
